@@ -1,76 +1,88 @@
-# Sahayak: AI Teaching Assistant for Multi-Grade Classrooms
+# 📚 Sahayak: Your AI Teaching Assistant for Multi-Grade Classrooms
 
-**Sahayak** is an easy-to-use AI-powered tool made for teachers in classrooms where one teacher handles many grades at the same time. It helps teachers save time, manage lessons, and reach every student in their local language.
-
----
-
-## Problems Teachers Face
-
-- One teacher has to handle students from different grades together.
-- Hard to make materials in local languages or fit for all grades.
-- Not enough time to answer every student's question or prepare worksheets.
-- Creating visuals or teaching aids takes too long.
-- Writing or typing questions takes time.
+**Sahayak** is an easy-to-use AI tool built especially for teachers who handle multiple grades together in one classroom. It saves time, helps create lessons in local languages, and makes sure every student gets the attention they need.
 
 ---
 
-## Sahayak Features
+## 🎯 Challenges Faced by Teachers
 
-### 1. Hyper-Local Content Generation
-
-- Teachers can ask for stories, explanations, or worksheets in any local language (like Marathi, Hindi, Telugu, etc.).
-- Sahayak uses Gemini to create content that's simple and fits the local culture.
-- Supports teacher requests in any language.
-
-*Service used: Gemini 2.5 Pro (text generation and translation)*
+- Managing students from different grades at once.
+- Lack of ready-to-use materials in local languages.
+- Not enough time to prepare worksheets or answer every question.
+- Making teaching aids or visuals takes too long.
+- Writing or typing questions eats up valuable teaching time.
 
 ---
 
-### 2. Differentiated Worksheet Creation
+## ✅ What Makes Sahayak Helpful?
 
-- Teachers upload a photo of a textbook page.
-- Sahayak makes worksheets or questions at different levels for each grade in the same class.
-- Instantly get materials for all grades.
-
-*Service used: Gemini 2.5 Pro (analyzing images and generating text)*
-
----
-
-### 3. Instant Knowledge Base
-
-- Teachers/students can ask questions like "Why is the sky blue?" in their own language.
-- Sahayak gives clear, grade-level answers with easy examples or analogies.
-- Uses recent conversation context to improve relevance.
-
-*Services used: Firestore (stores the last 5 conversations for context), Gemini 2.0 Flash (generates grounded answers using RAG)*
+- Supports any language used by teachers and students.
+- Simplifies lessons for mixed-grade classrooms.
+- Quickly creates stories, worksheets, visuals, and explanations.
+- Makes complex topics easy to understand.
+- Saves hours every week so teachers can focus on teaching.
 
 ---
 
-### 4. Visual Aid Generation
+## 🚀 Key Features
 
-- Teachers describe what they want (like, "Draw the water cycle").
-- Sahayak creates simple SVG drawings or charts that can be quickly copied to the blackboard.
+### 1️⃣ Hyper-Local Content Creation
 
-*Service used: Gemini 2.5 Pro (generates SVG graphics)*
+- Generate stories, explanations, or questions in local languages (Marathi, Hindi, Telugu, etc.).
+- Content respects local context and culture.
+- Teachers can chat with Sahayak in any language.
 
----
-
-### 5. Speech to Text
-
-- Teachers can speak their questions instead of typing.
-- Sahayak converts speech to text and handles multilingual queries for fast answers.
-
-*Services used: Gemini 2.5 Pro (language support), Speech-to-Text (STT service)*
+*Powered by: Gemini 2.5 Pro*
 
 ---
 
-## Why Use Sahayak?
+### 2️⃣ Smart Worksheet Maker
 
-- Answers and materials in any language used by the teacher.
-- Makes teaching easier for classes with mixed grades.
-- Saves time by quickly creating stories, worksheets, visuals, and answers.
-- Helps teachers explain tough concepts simply and clearly.
+- Upload a photo of any textbook page.
+- Get worksheets or questions at different difficulty levels for each grade.
+- Cover the entire classroom with one click.
+
+*Powered by: Gemini 2.5 Pro*
 
 ---
 
-> **With Sahayak, every teacher gets powerful help to make sure every child in any grade and any language can learn and grow!**
+### 3️⃣ Instant Q&A Help
+
+- Teachers and students can ask questions like “Why do leaves fall?” in their own language.
+- Sahayak gives clear, age-appropriate answers with simple examples.
+- Remembers the last few questions for better answers.
+
+*Uses: Firestore (conversation memory) + Gemini 2.0 Flash*
+
+---
+
+### 4️⃣ Visual Learning Aids
+
+- Just describe what you need — e.g., “Show me a simple food chain diagram.”
+- Sahayak creates ready-to-draw SVG visuals for blackboards or printouts.
+
+*Powered by: Gemini 2.5 Pro*
+
+---
+
+### 5️⃣ Talk Instead of Type
+
+- Speak your questions — Sahayak turns them into text instantly.
+- Supports multiple languages for voice queries.
+
+*Powered by: Speech-to-Text + Gemini 2.5 Pro*
+
+---
+
+## 💡 How Sahayak Helps
+
+- Speaks your language, fits your classroom.
+- Works on any device with internet access.
+- No special training needed — just ask and teach.
+- Keeps improving with use and feedback.
+
+---
+
+## 🌟 Empower Every Teacher
+
+> **With Sahayak, every teacher gets the power of AI to make sure every child learns better — no matter the grade, no matter the language.**
