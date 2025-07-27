@@ -34,7 +34,6 @@
 
 *Powered by: Gemini 2.5 Pro*
 
----
 
 ### 2️⃣ Smart Worksheet Maker
 
@@ -44,7 +43,6 @@
 
 *Powered by: Gemini 2.5 Pro*
 
----
 
 ### 3️⃣ Instant Q&A Help
 
@@ -54,7 +52,6 @@
 
 *Uses: Firestore (conversation memory) + Gemini 2.0 Flash*
 
----
 
 ### 4️⃣ Visual Learning Aids
 
@@ -63,7 +60,6 @@
 
 *Powered by: Gemini 2.5 Pro*
 
----
 
 ### 5️⃣ Talk Instead of Type
 
@@ -71,6 +67,12 @@
 - Supports multiple languages for voice queries.
 
 *Powered by: Speech-to-Text + Gemini 2.5 Pro*
+
+---
+
+## Architecture of Sahayak:
+
+![Sahayak architecture](<Screenshot (58).png>)
 
 ---
 
