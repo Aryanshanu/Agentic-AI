@@ -1,90 +1,85 @@
-# 📚 Sahayak: Your AI Teaching Assistant for Multi-Grade Classrooms
+# Sahayak AI - Educational Platform
+AI-Powered Teaching Assistant for Multi-Grade Classrooms
 
-**Sahayak** is an easy-to-use AI tool built especially for teachers who handle multiple grades together in one classroom. It saves time, helps create lessons in local languages, and makes sure every student gets the attention they need.
+🚀 Elevating education with AI agents – Automating lesson planning, worksheet generation, and personalized feedback to empower teachers in diverse classrooms.
 
----
+# Key Highlights
+✅ 6 Specialized AI Agents – Textbook analysis, visual aids, voice interaction, grading, lesson planning, and feedback
+✅ Multi-Grade Magic – Generates differentiated worksheets from a single textbook page
+✅ Voice-First – Hands-free operation for busy teachers
+✅ PWA Ready – Works offline in low-connectivity areas
+✅ Accessible – WCAG-compliant UI with screen reader support
 
-## 🎯 Challenges Faced by Teachers
+# Tech Stack
+Backend: FastAPI + Python
+AI: Google Gemini (RAG-enhanced)
+Frontend: PWA (HTML5/CSS3/JS)
+Database: Firestore
+Deployment: Cloud Run / Firebase
 
-- Managing students from different grades at once.
-- Lack of ready-to-use materials in local languages.
-- Not enough time to prepare worksheets or answer every question.
-- Making teaching aids or visuals takes too long.
-- Writing or typing questions eats up valuable teaching time.
+# Why Sahayak?
+Teachers in multi-grade classrooms (common in rural/underfunded schools) juggle 4-5 grade levels simultaneously. Sahayak’s AI agents:
 
----
+⏱ Save 10+ hours/week on lesson planning
 
-## ✅ What Makes Sahayak Helpful?
+✍️ Auto-generate grade-specific worksheets
 
-- Supports any language used by teachers and students.
-- Simplifies lessons for mixed-grade classrooms.
-- Quickly creates stories, worksheets, visuals, and explanations.
-- Makes complex topics easy to understand.
-- Saves hours every week so teachers can focus on teaching.
+🎨 Create blackboard-friendly visuals
 
----
+🗣 Answer curriculum questions via voice
 
-## 🚀 Key Features
-
-### 1️⃣ Hyper-Local Content Creation
-
-- Generate stories, explanations, or questions in local languages (Marathi, Hindi, Telugu, etc.).
-- Content respects local context and culture.
-- Teachers can chat with Sahayak in any language.
-
-*Powered by: Gemini 2.5 Pro*
-
-
-### 2️⃣ Smart Worksheet Maker
-
-- Upload a photo of any textbook page.
-- Get worksheets or questions at different difficulty levels for each grade.
-- Cover the entire classroom with one click.
-
-*Powered by: Gemini 2.5 Pro*
+#  Hackathon Focus
+🔹 Agentic Architecture: Collaborative AI agents with specialized roles
+🔹 Gemini Integration: RAG-powered textbook analysis + worksheet generation
+🔹 Real-World Impact: Designed with teachers from rural Indian schools
 
 
-### 3️⃣ Instant Q&A Help
+###### 🚀  Installation Guide
+Prerequisites
+Python 3.8+
 
-- Teachers and students can ask questions like “Why do leaves fall?” in their own language.
-- Sahayak gives clear, age-appropriate answers with simple examples.
-- Remembers the last few questions for better answers.
+Google Cloud Account (for Gemini API & Firestore)
 
-*Uses: Firestore (conversation memory) + Gemini 2.0 Flash*
+Firebase Project (Authentication)
+
+# Step 1: Clone & Setup
+
+bash
+git clone https://github.com/your-repo/sahayak-ai.git
+cd sahayak-ai
+python -m venv venv
+source venv/bin/activate  # Windows: `venv\Scripts\activate`
+
+# Step 2: Install Dependencies
+bash
+pip install -r requirements.txt
+
+# Step 3: Configure Secrets
+Create .env file from the template:
+
+bash
+cp .env.example .env
+Add your keys:
+
+# .env
+GOOGLE_API_KEY=your_gemini_key
+FIREBASE_CREDENTIALS=path/to/firebase.json
+
+#  Configure Firebase
+Download your Firebase serviceAccount.json from:
+Firebase Console → Project Settings → Service Accounts
+
+Place it in /sahayak-ai/auth/
+
+# Step 4: Run the Backend
+bash
+python main.py
+➔ API Docs: http://localhost:8000/docs
+
+Firebase Errors: Ensure serviceAccount.json has Firestore + Auth permissions
+
+# Step 5: Launch Frontend
+
+Frontend: Open templates/index.html in browser → "Install as PWA"
 
 
-### 4️⃣ Visual Learning Aids
-
-- Just describe what you need — e.g., “Show me a simple food chain diagram.”
-- Sahayak creates ready-to-draw SVG visuals for blackboards or printouts.
-
-*Powered by: Gemini 2.5 Pro*
-
-
-### 5️⃣ Talk Instead of Type
-
-- Speak your questions — Sahayak turns them into text instantly.
-- Supports multiple languages for voice queries.
-
-*Powered by: Speech-to-Text + Gemini 2.5 Pro*
-
----
-
-## Architecture of Sahayak:
-
-![Sahayak architecture](<Screenshot (58).png>)
-
----
-
-## 💡 How Sahayak Helps
-
-- Speaks your language, fits your classroom.
-- Works on any device with internet access.
-- No special training needed — just ask and teach.
-- Keeps improving with use and feedback.
-
----
-
-## 🌟 Empower Every Teacher
-
-> **With Sahayak, every teacher gets the power of AI to make sure every child learns better — no matter the grade, no matter the language.**
